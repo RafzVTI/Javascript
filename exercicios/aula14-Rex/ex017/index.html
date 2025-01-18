@@ -8,21 +8,28 @@
 </head>
 <body>
     <header>
-        <h1>Tabuada</h1>
+        <div class="texto">Calculdadora de Tabuada 3000 </div>
     </header>  
     <section>
         <div>
-            <p>Numero: <input type="number" name="num" id="txtn" value="gerar tabuada"></p>
+            <h2>Insira os dados para obter o resultado :)</h2>
+            <p>
+                <label for="txtn">Multiplicando:</label> <input type="number" name="num" id="txtn" value="gerar tabuada" required>
+            </p>
+            <p>
+                <label for="txtx">Multiplicador:</label>
+                <input type="number" name="txtx" id="txtx" required>
+            </p>
             <input type="button" value="Gerar Tabuada" onclick="tabuada()"/>
         </div>
         <div id="res">
             <select name="tabuada" id="seltab" size="10">
-                <option value="">Digite um numero acima</option>
+                <option value="">Produto</option>
             </select>
         </div>
     </section>
     <footer>
-        <p>Desenvolvido por Rafael Paez</p>
+        <p> &#174 Desenvolvido por Rafael Paez</p>
     </footer>
     <script src="javascript/scripts.js"></script>
 </body>
