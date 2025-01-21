@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <script src="javascript/javascript.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Analisador de números</h1>
+    </header>
+    <section>
+        <div>
+            <label for="fnum">Número de 1 a 100: </label>
+            <input type="number" name="fnum" id="fnum" required>
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <br><br><select name="flista" id="flista" size="6"></select>
+            <input type="button" value="Finalizar" onclick="finalizar()">
+        </div>
+        <div id="res">
+            
+        </div>
+    </section>
+    <footer>
+        <h2>&copy; Desenvolvido por Rafael Paez</h2>
+    </footer>
+</body>
+</html>
